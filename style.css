@@ -33,10 +33,6 @@ nav {
   padding: 0.5rem;
   width: 100%;
 }
-.links{
-  justify-content: left;
-  margin-right: 85%;
-}
 
 button {
   background: var(--bg);
@@ -91,6 +87,7 @@ box:hover{
 .textpic{
   filter: brightness(40%);
   max-width: 40%;
+  margin: 1rem;
 }
 
 section.textbox {
@@ -200,6 +197,7 @@ a:hover{
 }
 
 .top{
+  position: absolute;
   top: 8px;
 }
 
@@ -208,6 +206,15 @@ a:hover{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.left{
+  justify-content: left;
+  margin-right: 80%;
+}
+.right{
+  justify-content: right;
+  margin-left: 60%;
 }
 
 .noborder{
