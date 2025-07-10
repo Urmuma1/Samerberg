@@ -85,13 +85,12 @@ box:hover{
   color: var(--text-muted);
 }
 .textpic{
-  filter: brightness(40%);
-  max-width: 40%;
+  width: 40%;
   margin: 1rem;
 }
 
 section.textbox {
-  max-width: 95%;
+  max-width: 94%;
   margin: 2rem auto;
   padding: 1rem;
   background: var(--bg);
@@ -128,8 +127,7 @@ h4 {
   font-size: 24px;
 }
 img {
-  max-width: 90%;
-  max-height: 400px;
+  max-width: 100%;
   object-fit: cover;
   margin: auto;
   border-radius: 4px;
@@ -183,10 +181,9 @@ a:hover{
 }
 .side-by-side{
   display: flex;
-  gap: 20px;
-  padding: 5px;
+  gap: 1rem;
+  padding: 1rem;
   width: 90%;
-  margin: auto;
 }
 .text{
   display: block;
@@ -219,6 +216,7 @@ a:hover{
 
 .noborder{
   border: 0px;
+  padding: 0;
 }
 
 .nowidth{
