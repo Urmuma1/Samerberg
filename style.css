@@ -49,7 +49,7 @@ button {
 section {
   max-width: 95%;
   margin: 2rem auto;
-  padding: 1rem;
+  padding: 3rem;
   background: var(--bg);
   border-radius: 8px;
   border: solid 1px var(--border);
@@ -61,21 +61,27 @@ section {
   justify-content: center;
 }
 box {
-  max-width: 50%;
-  margin: 1rem;
+  width: 20%;
+  height: 20%;
+  margin: 0.5rem;
   padding: 1.5rem;
-  
+
   background: var(--bg);
   border-radius: 8px;
   border: solid 2px var(--border);
   gap: 2rem;
-  padding-inline: 3rem;
+  padding-inline: 2.5rem;
 
   align-items: center;
   justify-content: center;
 }
 box:hover{
   animation: zoom 0.5s ease-in forwards; 
+}
+
+.groß{
+  width: 90%;
+  height: 90%;
 }
 
 .focus{
@@ -206,6 +212,10 @@ a:hover{
 
 .noborder{
   border: 0px;
+}
+
+.nowidth{
+  max-width: 85%;
 }
 .absolute{
   position: absolute;
