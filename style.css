@@ -3,7 +3,7 @@
   --bg: hsl(192, 43%, 50%);
   --bg-light: hsl(192, 43%, 60%);
   --text: hsl(0 0% 95%);
-  --text-muted: hsl(0 0% 20%);
+  --text-muted: hsl(192, 43%, 30%);
   --link: hsl(192, 40%, 95%);
   --border: hsl(192, 40%, 75%);
   --shadow: 1px 1px 3px hsla(0, 0%, 60%, 0.93), 3px 3px 3px hsla(0, 0%, 50%, 0.85);
@@ -121,6 +121,7 @@ h3 {
   color: var(--text);
   font-size: 30px;
   padding: 0;
+  margin-top: 5px;
 }
 h4 {
   color: var(--text);
