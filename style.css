@@ -19,7 +19,8 @@ body {
 header {
   background: var(--bg-dark);
   color: var(--text);
-  padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   text-align: center;
   bottom: 0px;
   width: 100%;
@@ -30,7 +31,8 @@ nav {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  padding: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   width: 100%;
 }
 
@@ -75,20 +77,6 @@ box:hover{
   animation: zoom 0.5s ease-in forwards; 
 }
 
-.groß{
-  width: 90%;
-  height: 90%;
-}
-
-.focus{
-  scale: 1.07;
-  color: var(--text-muted);
-}
-.textpic{
-  width: 40%;
-  margin: 1rem;
-}
-
 section.textbox {
   max-width: 94%;
   margin: 2rem auto;
@@ -115,17 +103,13 @@ header.kontakt{
 }
 h2 {
   color: var(--text);
-  font-size: 38px;
+  font-size: 4vw;
 }
 h3 {
   color: var(--text);
-  font-size: 30px;
-  padding: 0;
-  margin-top: 5px;
-}
-h4 {
-  color: var(--text);
-  font-size: 24px;
+  font-size: 1.8vw;
+  margin-top: 9px;
+  margin-bottom: 18px;
 }
 img {
   max-width: 100%;
@@ -174,6 +158,12 @@ a:hover{
   animation: zoom 0.5s ease-in-out forwards;
 }
 
+p {
+  color: var(--text);
+  padding: 0.5rem 1rem;
+  font-size: 1.6vw;
+}
+
 .nobg{
   background: none;
 }
@@ -186,6 +176,7 @@ a:hover{
   padding: 1rem;
   width: 90%;
 }
+
 .text{
   display: block;
   max-width: 45%;
@@ -225,6 +216,20 @@ a:hover{
 }
 .absolute{
   position: absolute;
+}
+
+.groß{
+  width: 90%;
+  height: 90%;
+}
+
+.focus{
+  scale: 1.07;
+  color: var(--text-muted);
+}
+.textpic{
+  width: 40%;
+  margin: 1rem;
 }
 
 .container{
